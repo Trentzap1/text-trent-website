@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Text Trent | Your Offline AI Assistant</title>
+    <!-- Google Fonts: Inter for a modern, clean look -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Animated Background Mesh Gradient -->
+    <div class="background-gradient"></div>
+    
+    <!-- Navbar -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">Text Trent</div>
+            <a href="sms:+61477830253" class="btn btn-sm btn-outline">Text Now</a>
+        </div>
+    </header>
+
+    <main>
+        <!-- HERO SECTION -->
+        <section class="hero">
+            <div class="container hero-container">
+                <div class="hero-content">
+                    <div class="badges">
+                        <span class="badge">Free (20 msgs/hr)</span>
+                        <span class="badge">Australia Only 🇦🇺</span>
+                    </div>
+                    <h1>No Data?<br>No Problem.<br>Just Text Trent.</h1>
+                    <p>Your completely offline AI assistant. No apps, no internet, no sign-ups. Just text <strong>+61 477 830 253</strong> to get instant answers, or MMS a file to create your personal offline vault.</p>
+                    <div class="hero-buttons">
+                        <a href="sms:+61477830253" class="btn btn-primary">Text +61 477 830 253 Now</a>
+                        <a href="#pricing" class="btn btn-secondary">Get Pro Credits</a>
+                    </div>
+                </div>
+                
+                <!-- Phone Mockup with JS Animation -->
+                <div class="hero-mockup">
+                    <div class="phone glass-card-phone">
+                        <div class="phone-header">
+                            <div class="phone-contact">
+                                <div class="avatar">T</div>
+                                <span>Trent I Parsons</span>
+                            </div>
+                        </div>
+                        <div class="phone-body" id="chat-container">
+                            <!-- Messages injected via Javascript -->
+                        </div>
+                        <div class="phone-footer">
+                            <div class="fake-input">Text Message</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- HOW IT WORKS SECTION -->
+        <section class="how-it-works" id="how-it-works">
+            <div class="container">
+                <h2>The Instant Access Flow</h2>
+                <div class="cards-grid">
+                    <div class="glass-card">
+                        <div class="card-icon">💬</div>
+                        <h3>Step 1: Just Text</h3>
+                        <p>Ask a question anytime. Perfect for dumbphones, low battery, or when you have zero data roaming.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="card-icon">📎</div>
+                        <h3>Step 2: MMS for Memory</h3>
+                        <p>Text Trent a PDF, photo, or doc. Trent will read it and remember it for an hour (Free) or permanently (Pro), acting as your private vault.</p>
+                    </div>
+                    <div class="glass-card">
+                        <div class="card-icon">🔒</div>
+                        <h3>Step 3: Total Privacy</h3>
+                        <p>Built on an air-gapped server. Only your texts are saved, and you can text "Clear Memory" to wipe your data instantly.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CORE USE CASES SECTION -->
+        <section class="use-cases">
+            <div class="container">
+                <h2>Why People Use Text Trent</h2>
+                <div class="use-case-grid">
+                    <div class="use-case-item">
+                        <div class="icon-wrapper">✈️</div>
+                        <h4>The Off-Grid Traveler</h4>
+                        <p>Get instant answers mid-flight, camping, or overseas without paying for data roaming.</p>
+                    </div>
+                    <div class="use-case-item">
+                        <div class="icon-wrapper">🔋</div>
+                        <h4>The Battery Saver</h4>
+                        <p>Browsers kill your phone. Texting uses almost zero power when you're at 5% battery.</p>
+                    </div>
+                    <div class="use-case-item">
+                        <div class="icon-wrapper">📱</div>
+                        <h4>Dumbphone Compatible</h4>
+                        <p>Turn any basic SMS-capable phone into a smart assistant.</p>
+                    </div>
+                    <div class="use-case-item">
+                        <div class="icon-wrapper">🗄️</div>
+                        <h4>The Personal Vault</h4>
+                        <p>MMS your itinerary or insurance policy before you lose service, and text Trent for the details later.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PRICING & UPGRADE SECTION -->
+        <section class="pricing" id="pricing">
+            <div class="container">
+                <h2>Simple Pricing</h2>
+                <div class="pricing-grid">
+                    <div class="pricing-card free glass-card">
+                        <h3>Free Tier</h3>
+                        <div class="price">$0</div>
+                        <ul class="features">
+                            <li>20 messages per hour</li>
+                            <li>1-hour memory retention</li>
+                            <li>Standard response time</li>
+                            <li>Australia Only</li>
+                        </ul>
+                        <a href="sms:+61477830253" class="btn btn-outline w-100">Start Texting</a>
+                    </div>
+                    <div class="pricing-card pro glass-card-solid">
+                        <div class="popular-badge">Most Popular</div>
+                        <h3>Pro Tier</h3>
+                        <div class="price">Pay as you go credits</div>
+                        <ul class="features">
+                            <li>Unlocked message limits</li>
+                            <li>Persistent file memory</li>
+                            <li>Priority response times</li>
+                            <li>Australia Only</li>
+                        </ul>
+                        <!-- Stripe integration link -->
+                        <a href="https://buy.stripe.com/8x26oI6rlgS09lm7CD77O01" class="btn btn-primary w-100" target="_blank" rel="noopener noreferrer">Buy Pro Credits</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="logo">Text Trent</div>
+                <div class="footer-links">
+                    <a href="#">Privacy Policy</a>
+                    <a href="#">Terms of Service</a>
+                </div>
+            </div>
+            <div class="disclaimer">
+                Text Trent operates on an isolated air-gapped system. Australian numbers only.
+            </div>
+        </div>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
